@@ -60,6 +60,32 @@
 <script>
   // plays the sound corrsponding to key pressed and transitions button.
   //  Does nothing if key is not mapped to a sound.
+
+  function getColor(keyCode) {
+    console.log(keyCode);
+    switch(keyCode) {
+      case 65:
+        return 'red';
+      case 83:
+        return 'darkorange';
+      case 68:
+        return 'yellow';
+      case 70:
+        return 'greenyellow';
+      case 71:
+        return 'green';
+      case 72:
+        return 'turquoise';
+      case 74:
+        return 'blue';
+      case 75:
+        return 'indigo';
+      case 76:
+        return 'purple';
+    }
+    return 'white';
+  }
+
   function playSound(e) {
     const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
     const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
@@ -68,6 +94,11 @@
     audio.play();
 
     key.classList.add('playing');
+
+    let color = getColor(e.keyCode);
+
+    key.style['box-shadow'] = "0 0 1rem " + color;
+    key.style['border-color'] = color;
   }
 
   // removes the playing class from key, found by detection of transform property.
@@ -76,11 +107,14 @@
     if(e.propertyName !== 'transform') return;
 
     this.classList.remove('playing');
+    this.style['box-shadow'] = "";
+    this.style['border-color'] = '';
   }
 
   // Add event listener to keys to call removeTransition at the end of a transition.
   const keys = document.querySelectorAll('.key');
   keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+  keys.forEach(key => key.style.color=getColor(parseInt(key.getAttribute('data-key'), 10)));
 
   // Call playSound with key pressed.
   window.addEventListener('keydown', playSound);
