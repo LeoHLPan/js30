@@ -34,9 +34,17 @@
 - [ ] Day 30
 
 ## Accomplishments
+<em>Date completed and additional features.</em>
 
 ### Day 1
 - Completed 23/02/2019
 - Changed background.
 - Changed colour of keys.
 - Moved keys down to accommodate image.
+
+### Day 2
+- Completed 24/02/2019
+- Changed background.
+- Fix awkward hand transition to 0 degrees.
+- Changed clock hand colour and width.
+- Added center nub.
