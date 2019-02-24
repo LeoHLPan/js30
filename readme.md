@@ -37,3 +37,6 @@
 
 ### Day 1
 - Completed 23/02/2019
+- Changed background.
+- Changed colour of keys.
+- Moved keys down to accommodate image.
