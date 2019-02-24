@@ -12,13 +12,14 @@
         <div class="hand hour-hand"></div>
         <div class="hand min-hand"></div>
         <div class="hand second-hand"></div>
+        <div class="clock-center"></div>
       </div>
     </div>
 
 
   <style>
     html {
-      background: #018DED url(http://unsplash.it/1500/1000?image=881&blur=50);
+      background: #018DED url(images/hotel.jpg);
       background-size: cover;
       font-family: 'helvetica neue';
       text-align: center;
@@ -38,6 +39,7 @@
       width: 30rem;
       height: 30rem;
       border: 20px solid white;
+      background: lightsteelblue;
       border-radius: 50%;
       margin: 50px auto;
       position: relative;
@@ -47,6 +49,16 @@
         inset 0 0 0 3px #EFEFEF,
         inset 0 0 10px black,
         0 0 10px rgba(0,0,0,0.2);
+    }
+
+    .clock-center {
+      position: relative;
+      border-radius: 100%;
+      width:5%;
+      height:5%;
+      top: 49%;
+      margin: 0 auto;
+      background: black;
     }
 
     .clock-face {
@@ -68,6 +80,19 @@
       transition-timing-function: cubic-bezier(.19,2.74,.58,1);
     }
 
+    .notransition {
+      transition: none !important;
+    }
+
+    .hour-hand {
+      height: 10px;
+    }
+
+    .second-hand {
+      height: 4px;
+      background: red;
+    }
+
   </style>
 
   <script>
@@ -75,19 +100,40 @@
     const mHand = document.querySelector('.min-hand');
     const sHand = document.querySelector('.second-hand');
 
+    function rotateHands(hand, time) {
+      let denom = 60;
+
+      // Change denominator to 12 for hour hand and change to 12-hour time.
+      if(hand.classList.contains('hour-hand')) {
+        denom = 12;
+        if(time > 12) time -= 12;
+      }
+
+      const degrees = (time/denom) * 360 + 90;
+
+      if(time === 0 && !hand.classList.contains('notransition')) hand.classList.add('notransition');
+      else if(hand.classList.contains('notransition')) hand.classList.remove('notransition');
+
+        hand.style.transform = `rotate(${degrees}deg)`;
+    }
+
     function setDate() {
       const now = new Date();
       const h = now.getHours();
       const m = now.getMinutes();
       const s = now.getSeconds();
 
-      const hDegrees = (h/60) * 360 + 90;
+      rotateHands(hHand, h);
+      rotateHands(mHand, m);
+      rotateHands(sHand, s);
+
+      /*const hDegrees = (h/60) * 360 + 90;
       const mDegrees = (m/60) * 360 + 90;
       const sDegrees = (s/60) * 360 + 90;
 
       hHand.style.transform = `rotate(${hDegrees}deg)`;
       mHand.style.transform = `rotate(${mDegrees}deg)`;
-      sHand.style.transform = `rotate(${sDegrees}deg)`;
+      sHand.style.transform = `rotate(${sDegrees}deg)`;*/
     }
 
     setInterval(setDate, 1000);
