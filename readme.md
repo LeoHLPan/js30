@@ -2,8 +2,8 @@
 [https://JavaScript30.com](https://JavaScript30.com)
 
 ## Progress
-- [x] Day 1
-- [ ] Day 2
+- [x] Day 1 (23/02/2019)
+- [x] Day 2 (24/02/2019)
 - [ ] Day 3
 - [ ] Day 4
 - [ ] Day 5
