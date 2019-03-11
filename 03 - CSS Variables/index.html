@@ -19,10 +19,19 @@
     <input id="base" type="color" name="base" value="#ffc600">
   </div>
 
-  <img src="https://source.unsplash.com/7bwQXzbF6KE/800x500">
+  <img src="images/snowy_day.jpg" style="width:50%;height:50%">
 
   <script>
     const inputs = document.querySelectorAll('.controls input')
+
+    // set default controls to equal default inputs
+    for(var i = 0; i < inputs.length; i++) {
+      const suffix = inputs[i].dataset.sizing || '';
+      var defaultVal = getComputedStyle(document.body).getPropertyValue(`--${inputs[i].name}`)
+      // trim off unit measure if there is one
+      defaultVal = defaultVal.replace(suffix, '');
+      inputs[i].value = defaultVal;
+    }
 
     function handleUpdate() {
       const suffix = this.dataset.sizing || '';
