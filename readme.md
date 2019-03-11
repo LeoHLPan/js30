@@ -4,7 +4,7 @@
 ## Progress
 - [x] Day 1 (23/02/2019)
 - [x] Day 2 (24/02/2019)
-- [ ] Day 3
+- [x] Day 3 (11/03/2019)
 - [ ] Day 4
 - [ ] Day 5
 - [ ] Day 6
@@ -48,3 +48,9 @@
 - Fix awkward hand transition to 0 degrees.
 - Changed clock hand colour and width.
 - Added center nub.
+
+### Day 3
+- Completed 11/03/2019
+- Changed image used.
+- Changed border colour.
+- Set default parameters so UI is consistent on reload.
