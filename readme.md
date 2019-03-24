@@ -5,7 +5,7 @@
 - [x] Day 1 (23/02/2019)
 - [x] Day 2 (24/02/2019)
 - [x] Day 3 (11/03/2019)
-- [ ] Day 4
+- [x] Day 4 (24/03/2019)
 - [ ] Day 5
 - [ ] Day 6
 - [ ] Day 7
@@ -54,3 +54,9 @@
 - Changed image used.
 - Changed border colour.
 - Set default parameters so UI is consistent on reload.
+
+### Day 4
+- Completed 24/03/2019
+- Copy sorted arrays so second sort doesn't change first sort's result.
+- Sorted names by first name if last name is the same.
+- Overall more efficient implementation.
