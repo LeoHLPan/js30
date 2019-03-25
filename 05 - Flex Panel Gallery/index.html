@@ -9,29 +9,29 @@
 <body>
   <div class="panels">
     <div class="panel panel1">
-      <p>Hey</p>
-      <p>Let's</p>
-      <p>Dance</p>
+      <p>Make</p>
+      <p>This</p>
+      <p>Count</p>
     </div>
     <div class="panel panel2">
-      <p>Give</p>
-      <p>Take</p>
-      <p>Receive</p>
+      <p>Nothing</p>
+      <p>Is</p>
+      <p>Meaningless</p>
     </div>
     <div class="panel panel3">
-      <p>Experience</p>
-      <p>It</p>
-      <p>Today</p>
+      <p>A New</p>
+      <p></p>
+      <p>Chapter</p>
     </div>
     <div class="panel panel4">
-      <p>Give</p>
-      <p>All</p>
-      <p>You can</p>
+      <p>Take</p>
+      <p>Your</p>
+      <p>Time</p>
     </div>
     <div class="panel panel5">
-      <p>Life</p>
-      <p>In</p>
-      <p>Motion</p>
+      <p>Your</p>
+      <p>Story</p>
+      <p>Continues</p>
     </div>
   </div>
 
@@ -39,11 +39,15 @@
     const panels = document.querySelectorAll('.panel');
 
     function toggleOpen() {
+      if(this.classList.contains('open')) {
+        this.classList.toggle('open-active');
+      }
       this.classList.toggle('open');
     }
 
     function toggleActive(e) {
-      if(e.propertyName.includes('flex')) {
+      if(this.classList.contains('open') &&
+           e.propertyName.includes('flex')) {
         this.classList.toggle('open-active');
       }
     }

@@ -42,11 +42,17 @@ body {
   flex-direction: column;
 }
 
-.panel1 { background-image:url(https://source.unsplash.com/gYl-UtwNg_I/1500x1500); }
-.panel2 { background-image:url(https://source.unsplash.com/rFKUFzjPYiQ/1500x1500); }
-.panel3 { background-image:url(https://images.unsplash.com/photo-1465188162913-8fb5709d6d57?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&cs=tinysrgb&w=1500&h=1500&fit=crop&s=967e8a713a4e395260793fc8c802901d); }
-.panel4 { background-image:url(https://source.unsplash.com/ITjiVXcwVng/1500x1500); }
-.panel5 { background-image:url(https://source.unsplash.com/3MNzGlQM7qs/1500x1500); }
+.panel1 { background-image:url(https://c.pxhere.com/photos/37/a7/toronto_canada_skyline_architecture_cn_tower_cn_tower_sunset-1252961.jpg!d); }
+.panel2 { background-image:url(https://cdn-images-1.medium.com/max/1200/1*lkmI-RHIt5BJ8jhX3RnMIw.jpeg); }
+.panel3 { background-image:url(https://s28566.pcdn.co/wp-content/uploads/2018/08/home-hero.jpg); }
+.panel4 { background-image:url(https://i0.wp.com/theycome4u.com/wp-content/uploads/2013/07/wallpaper-2839632.jpg); }
+.panel5 { background-image:url(http://sky-lights.org/wp-content/uploads/2017/07/2017-07-24-T1.jpg); }
+
+/* Alternatives:
+- https://i.pinimg.com/originals/de/e6/73/dee6730ac7dc0ea8f604e3f38553c40a.jpg
+- https://fromtheheartogod.files.wordpress.com/2014/04/bible-lights1.jpg
+
+*/
 
 /* Flex Children */
 .panel > * {
