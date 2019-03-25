@@ -6,7 +6,7 @@
 - [x] Day 2 (24/02/2019)
 - [x] Day 3 (11/03/2019)
 - [x] Day 4 (24/03/2019)
-- [ ] Day 5
+- [x] Day 5 (25/03/2019)
 - [ ] Day 6
 - [ ] Day 7
 - [ ] Day 8
@@ -60,3 +60,9 @@
 - Copy sorted arrays so second sort doesn't change first sort's result.
 - Sorted names by first name if last name is the same.
 - Overall more efficient implementation.
+
+### Day 5
+- Completed 25/03/2019
+- Make words fly away before transition on shrink.
+- Changed message.
+- Changed images used.
