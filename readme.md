@@ -7,7 +7,7 @@
 - [x] Day 3 (11/03/2019)
 - [x] Day 4 (24/03/2019)
 - [x] Day 5 (25/03/2019)
-- [ ] Day 6
+- [x] Day 6 (27/03/2019)
 - [ ] Day 7
 - [ ] Day 8
 - [ ] Day 9
@@ -66,3 +66,9 @@
 - Make words fly away before transition on shrink.
 - Changed message.
 - Changed images used.
+
+### Day 6
+- Completed 27/03/2019
+- Message returns to default if query is erased.
+- Added message if there are no matches.
+- Input box is selected on load. Query is reset on reload.
