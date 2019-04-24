@@ -8,7 +8,7 @@
 - [x] Day 4 (24/03/2019)
 - [x] Day 5 (25/03/2019)
 - [x] Day 6 (27/03/2019)
-- [ ] Day 7
+- [x] Day 7 (24/04/2019)
 - [ ] Day 8
 - [ ] Day 9
 - [ ] Day 10
@@ -72,3 +72,7 @@
 - Message returns to default if query is erased.
 - Added message if there are no matches.
 - Input box is selected on load. Query is reset on reload.
+
+### Day 7
+- Completed 27/04/2019
+- List of comments after removing one will be printed.
