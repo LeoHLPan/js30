@@ -9,7 +9,7 @@
 - [x] Day 5 (25/03/2019)
 - [x] Day 6 (27/03/2019)
 - [x] Day 7 (24/04/2019)
-- [ ] Day 8
+- [x] Day 8 (26/04/2019)
 - [ ] Day 9
 - [ ] Day 10
 - [ ] Day 11
@@ -74,5 +74,11 @@
 - Input box is selected on load. Query is reset on reload.
 
 ### Day 7
-- Completed 27/04/2019
+- Completed 24/04/2019
 - List of comments after removing one will be printed.
+
+### Day 8
+- Completed 26/04/2019
+- Stroke width grows from 1px to 50 as stroke length increases.
+- Stroke width resets to 1 for every new line.
+- Various efficiency changes.
