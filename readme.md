@@ -2,16 +2,16 @@
 [https://JavaScript30.com](https://JavaScript30.com)
 
 ## Progress
-- [x] Day 1 (23/02/2019)
-- [x] Day 2 (24/02/2019)
-- [x] Day 3 (11/03/2019)
-- [x] Day 4 (24/03/2019)
-- [x] Day 5 (25/03/2019)
-- [x] Day 6 (27/03/2019)
-- [x] Day 7 (24/04/2019)
-- [x] Day 8 (26/04/2019)
-- [ ] Day 9
-- [ ] Day 10
+- [x] Day 1  (23/02/2019)
+- [x] Day 2  (24/02/2019)
+- [x] Day 3  (11/03/2019)
+- [x] Day 4  (24/03/2019)
+- [x] Day 5  (25/03/2019)
+- [x] Day 6  (27/03/2019)
+- [x] Day 7  (24/04/2019)
+- [x] Day 8  (26/04/2019)
+- [x] Day 9  (26/04/2019)
+- [x] Day 10 (26/04/2019)
 - [ ] Day 11
 - [ ] Day 12
 - [ ] Day 13
@@ -82,3 +82,13 @@
 - Stroke width grows from 1px to 50 as stroke length increases.
 - Stroke width resets to 1 for every new line.
 - Various efficiency changes.
+
+### Day 9
+- Read 26/04/2019
+- No coding challenge.
+- Watched video which provided information on techniques instead.
+
+### Day 10
+- Completed 26/04/2019
+- Implementation is different because I did it myself.
+- Changed colour of background and list.
