@@ -12,7 +12,7 @@
 - [x] Day 8  (26/04/2019)
 - [x] Day 9  (26/04/2019)
 - [x] Day 10 (26/04/2019)
-- [ ] Day 11
+- [x] Day 11 (27/04/2019)
 - [ ] Day 12
 - [ ] Day 13
 - [ ] Day 14
@@ -92,3 +92,10 @@
 - Completed 26/04/2019
 - Implementation is different because I did it myself.
 - Changed colour of background and list.
+
+### Day 11
+- Completed 27/04/2019
+- Changed video used.
+- Added fullscreen button.
+- Changed skip duration (5s).
+- Added keyboard commands. Arrow keys skips, space toggles pause, f toggles fullscreen.
