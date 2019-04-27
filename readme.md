@@ -13,7 +13,7 @@
 - [x] Day 9  (26/04/2019)
 - [x] Day 10 (26/04/2019)
 - [x] Day 11 (27/04/2019)
-- [ ] Day 12
+- [x] Day 12 (27/04/2019)
 - [ ] Day 13
 - [ ] Day 14
 - [ ] Day 15
@@ -99,3 +99,8 @@
 - Added fullscreen button.
 - Changed skip duration (5s).
 - Added keyboard commands. Arrow keys skips, space toggles pause, f toggles fullscreen.
+
+### Day 12
+- Completed 27/04/2019
+- Used different word as secret code ('ayylmao').
+- Cleared input if it is correct (so codes with repetition aren't prematurely recognized).
