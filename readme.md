@@ -14,7 +14,7 @@
 - [x] Day 10 (26/04/2019)
 - [x] Day 11 (27/04/2019)
 - [x] Day 12 (27/04/2019)
-- [ ] Day 13
+- [x] Day 13 (27/04/2019)
 - [ ] Day 14
 - [ ] Day 15
 - [ ] Day 16
@@ -104,3 +104,8 @@
 - Completed 27/04/2019
 - Used different word as secret code ('ayylmao').
 - Cleared input if it is correct (so codes with repetition aren't prematurely recognized).
+
+### Day 13
+- 27/04/2019
+- Used different images.
+- Made background gradient.
