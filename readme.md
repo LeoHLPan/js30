@@ -15,7 +15,7 @@
 - [x] Day 11 (27/04/2019)
 - [x] Day 12 (27/04/2019)
 - [x] Day 13 (27/04/2019)
-- [ ] Day 14
+- [x] Day 14 (28/04/2019)
 - [ ] Day 15
 - [ ] Day 16
 - [ ] Day 17
@@ -109,3 +109,8 @@
 - 27/04/2019
 - Used different images.
 - Made background gradient.
+
+### Day 14
+- 28/04/2019
+- Watched the video.
+- Tested techniques, including the object ...spread method.
