@@ -1,6 +1,9 @@
 # JavaScript30
 [https://JavaScript30.com](https://JavaScript30.com)
 
+## Update
+This tutorial will be put on hold for the time being. A lot of what is being taught is review from different languages, and I am not proficient enough in CSS to fully understand the lessons which involve modifying CSS elements.
+
 ## Progress
 - [x] Day 1  (23/02/2019)
 - [x] Day 2  (24/02/2019)
