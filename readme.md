@@ -2,7 +2,7 @@
 [https://JavaScript30.com](https://JavaScript30.com)
 
 ## Update
-This tutorial will be put on hold for the time being. A lot of what is being taught is review from different languages, and I am not proficient enough in CSS to fully understand the lessons which involve modifying CSS elements.
+This tutorial will be put on hold for the time being. I have learned enough to confidently start the React tutorial.
 
 ## Progress
 - [x] Day 1  (23/02/2019)
